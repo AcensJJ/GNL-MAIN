@@ -7,6 +7,7 @@ int	main()
 	char *line;
 	int a;
 
+	line = NULL;
 	a = 0;
 	fd = open("main.c", O_RDONLY);
 	while (get_next_line(fd, &line))
